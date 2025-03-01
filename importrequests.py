@@ -43,7 +43,7 @@ for metric in METRICS:
 if all_results:
     # Get the current timestamp for the filename
     timestamp_str = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')  # Format timestamp for the filename
-    file_path = f"\home\avocado\ClusterxMFC\IntelNUC_Lab\ClusterxMFC\prometheus_multiple_metrics_{timestamp_str}.csv"
+    file_path = f"prometheus_multiple_metrics_{timestamp_str}.csv"
 
     # Debug: confirm we're writing the data to CSV
     print(f"Writing data to CSV file: {file_path}")
