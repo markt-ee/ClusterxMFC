@@ -5,7 +5,7 @@ from datetime import datetime, timedelta, timezone
 
 # Define Prometheus API endpoint
 PROMETHEUS_URL = "http://192.168.0.156:9090/api/v1/query_range"
-METRICS = ["mqtt_voltage", "mqtt_temperature", "mqtt_moisture"]  # List of metrics to fetch
+METRICS = ["mqtt_voltage", "mqtt_moisture"]  # List of metrics to fetch
 
 # Calculate the timestamps for 1 month ago and now
 end_time = int(time.time())  # Current time in Unix timestamp
@@ -41,8 +41,15 @@ for metric in METRICS:
 
 # Convert to CSV if any results are collected
 if all_results:
+    # Get the current timestamp for the filename
+    timestamp_str = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')  # Format timestamp for the filename
+    file_path = f"C:\\Users\\kathe\\Desktop\\ClusterxMFC\\prometheus_multiple_metrics_{timestamp_str}.csv"
+    
+    # Debug: confirm we're writing the data to CSV
+    print(f"Writing data to CSV file: {file_path}")
+
     df = pd.DataFrame(all_results)
-    df.to_csv(r"C:\Users\kathe\Desktop\MudWatts\prometheus_multiple_metrics.csv", index=False)
-    print("Data saved as prometheus_multiple_metrics.csv")
+    df.to_csv(file_path, index=False)
+    print(f"Data saved as {file_path}")
 else:
     print("No data collected for any metric.")
