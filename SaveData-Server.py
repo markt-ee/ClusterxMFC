@@ -8,7 +8,7 @@ def download_file():
     return send_file(file_path, as_attachment=True)
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5001)
+    app.run(host="192.168.1.158", port=5001)
 
 #192.168.1.158 IP address of mycafe
 #192.168.0.156 IP address of TPlink
