@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/download')
 def download_file():
-    file_path = "C:/Users/kathe/Desktop/ClusterxMFC/SaveData-TestFile.txt"  # Change this to your actual file
+    file_path = "/home/avocado/ClusterxMFC/IntelNUC_Lab/ClusterxMFC/SaveData-TestFile.txt"  # Change this to your actual file
     return send_file(file_path, as_attachment=True)
 
 if __name__ == '__main__':
