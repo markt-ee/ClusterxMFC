@@ -9,9 +9,9 @@ import socket
 import sys
 
 # ESP32 Configuration
-ESP32_IP = "192.168.2.21"
+ESP32_IP = "192.168.2.31"
 PORT = 1234
-timer_started = False
+timer_started = True #disable timer stuff for now
 pot_list = [100, 50, 25, 10, 8, 6, 4, 2, 1, 0]
 pot_count = 0
 timer = 20  # Timer duration in minutes

@@ -1,0 +1,35 @@
+Timestamp,Voltage (V),Current (A)
+[19:29:59] Log file initialized: test2
+[19:29:59] ['TEST PROFILE', 'Pot increments: 10', 'Timer: 20 min']
+[19:29:59] --------------------------------------------------
+[19:29:59] Flask server starting on port 5000...
+[19:30:01] Received data: {'cellId': 200, 'loggerId': 200, 'ts': 281, 'type': 'power', 'data': {'voltage': 0.6975740601499999, 'current': 4.784443378599948e-08}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:30:01] Voltage: 0.698 V | Current: 0.000000 A
+[19:30:03] Received data: {'cellId': 15, 'loggerId': 15, 'ts': 540, 'type': 'power', 'data': {'voltage': 0.704579325659, 'current': -10.09860576290895}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:30:03] Voltage: 0.705 V | Current: -10.098606 A
+[19:30:03] Received data: {'cellId': 15, 'loggerId': 15, 'ts': 540, 'type': 'power', 'data': {'voltage': 0.704348897459, 'current': -10.088734714305449}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:30:03] Voltage: 0.704 V | Current: -10.088735 A
+[19:30:11] Received data: {'cellId': 200, 'loggerId': 200, 'ts': 281, 'type': 'power', 'data': {'voltage': 0.6975642164, 'current': -9.215473009120017e-07}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:30:11] Voltage: 0.698 V | Current: -0.000001 A
+[19:30:13] Received data: {'cellId': 15, 'loggerId': 15, 'ts': 550, 'type': 'power', 'data': {'voltage': 0.704551224659, 'current': -9.69997655930475}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:30:13] Voltage: 0.705 V | Current: -9.699977 A
+[19:30:13] Received data: {'cellId': 15, 'loggerId': 15, 'ts': 550, 'type': 'power', 'data': {'voltage': 0.7043646340190001, 'current': -9.767301139780049}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:30:13] Voltage: 0.704 V | Current: -9.767301 A
+[19:30:21] Received data: {'cellId': 200, 'loggerId': 200, 'ts': 291, 'type': 'power', 'data': {'voltage': 0.69758351015, 'current': -5.606693040649988e-07}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:30:21] Voltage: 0.698 V | Current: -0.000001 A
+[19:30:23] Received data: {'cellId': 15, 'loggerId': 15, 'ts': 560, 'type': 'power', 'data': {'voltage': 0.704543356379, 'current': -9.676205462667749}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:30:23] Voltage: 0.705 V | Current: -9.676205 A
+[19:30:23] Received data: {'cellId': 15, 'loggerId': 15, 'ts': 560, 'type': 'power', 'data': {'voltage': 0.7043528315990001, 'current': -10.134745887796049}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:30:23] Voltage: 0.704 V | Current: -10.134746 A
+[19:30:31] Received data: {'cellId': 200, 'loggerId': 200, 'ts': 291, 'type': 'power', 'data': {'voltage': 0.6975819351499999, 'current': -4.80817472033e-07}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:30:31] Voltage: 0.698 V | Current: -0.000000 A
+[19:30:33] Received data: {'cellId': 15, 'loggerId': 15, 'ts': 570, 'type': 'power', 'data': {'voltage': 0.7045377361790001, 'current': -10.257146890479449}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:30:33] Voltage: 0.705 V | Current: -10.257147 A
+[19:30:33] Received data: {'cellId': 15, 'loggerId': 15, 'ts': 570, 'type': 'power', 'data': {'voltage': 0.7043303507990001, 'current': -9.88406154326145}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:30:33] Voltage: 0.704 V | Current: -9.884062 A
+[19:30:41] Received data: {'cellId': 200, 'loggerId': 200, 'ts': 301, 'type': 'power', 'data': {'voltage': 0.6975740601499999, 'current': 5.178057368910007e-07}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:30:41] Voltage: 0.698 V | Current: 0.000001 A
+[19:30:43] Received data: {'cellId': 15, 'loggerId': 15, 'ts': 580, 'type': 'power', 'data': {'voltage': 0.704536050119, 'current': -9.74606831278395}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:30:43] Voltage: 0.705 V | Current: -9.746068 A
+[19:30:43] Received data: {'cellId': 15, 'loggerId': 15, 'ts': 580, 'type': 'power', 'data': {'voltage': 0.704306183939, 'current': -9.81613261287165}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:30:43] Voltage: 0.704 V | Current: -9.816133 A
