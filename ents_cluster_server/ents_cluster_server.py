@@ -14,10 +14,13 @@ ESP32_IP = "192.168.0.31"
 PORT = 1234
 timer_started = False 
 pot_list = [100, 50, 25, 10, 8, 6, 4, 2, 1, 0]
-pot_cycle_complete = np.zeros(len(pot_list))
+v_pot_cycle_complete = np.zeros(len(pot_list)+2)
+i_pot_cycle_complete = np.zeros(len(pot_list)+2)
 pot_count = 0
 timer = 20  # Timer duration in minutes
 pot_threshold = 0.6
+voltage = 0.0
+current = 0.0
 
 
 # Logging Setup
@@ -59,21 +62,23 @@ def open_ckt():
     log_excel("open ckt potentiometer\n")
     send_command("pot off")
     send_command("pot off") #redudant call but need troubleshooting
-
-    time.sleep(1*60)
+    time.sleep(2*60)
 
 #open ckt pot 
 open_ckt()
 
 
 def start_timer_pot(pot):
-    global timer_started, timer, pot_cycle_complete, pot_count, voltage
+    global timer_started, timer, pot_cycle_complete, pot_count, voltage, current
     log_excel("Voltage threshold reached. Starting timer.")
-
     send_command(f"pot {pot}")
     time.sleep(timer * 60)
-    log_excel("Timer ended. Turning off potentiometer.")
-    #pot_cycle_complete[pot_count] = voltage
+    log_excel("Timer ended. Turning off potentiometer. Saving Potentiometer Cycle Voltage and Current Values")
+    v_pot_cycle_complete[pot_count] = voltage
+    i_pot_cycle_complete[pot_count] = current
+    log_excel(v_pot_cycle_complete)
+    log_excel(i_pot_cycle_complete)
+    
     send_command("pot off")
     send_command("pot off") #redudant call but need troubleshooting
     time.sleep(2*60)
@@ -95,7 +100,7 @@ def health_check():
 
 @app.route('/data', methods=['POST'])
 def receive_data():
-    global timer_started, pot_count, pot_list,pot_threshold, pot_cycle_complete
+    global timer_started, pot_count, pot_list,pot_threshold, pot_cycle_complete, voltage,current
     data = request.data
 
 
@@ -117,7 +122,8 @@ def receive_data():
                 log_excel("f{voltage} detected above {pot_threshold} Starting potentiometer adjustment thread")
                 if pot_count >= len(pot_list):
                     pot_count = 0
-                    print(pot_cycle_complete)
+                    print(v_pot_cycle_complete)
+                    print(i_pot_cycle_complete)
                     pot_cycle_complete = np.zeros(len(pot_list))
                 timer_started = True
                 threading.Thread(
