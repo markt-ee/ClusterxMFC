@@ -1,0 +1,8 @@
+Timestamp,Voltage (V),Current (A)
+[18:12:45] Log file initialized: setuppot1
+[18:12:45] ['TEST PROFILE', 'Pot increments: 10', 'Timer: 1 min']
+[18:12:45] --------------------------------------------------
+[18:12:45] open ckt potentiometer
+
+[18:12:48] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:12:51] Failed to send command: pot off | Error: [Errno 113] No route to host

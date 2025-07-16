@@ -7,20 +7,25 @@ from prometheus_client import start_http_server, Gauge
 import threading
 import socket
 import sys
+import numpy as np
 
 # ESP32 Configuration
-ESP32_IP = "192.168.2.31"
+ESP32_IP = "192.168.0.31"
 PORT = 1234
-timer_started = True #disable timer stuff for now
+timer_started = False 
 pot_list = [100, 50, 25, 10, 8, 6, 4, 2, 1, 0]
+pot_cycle_complete = np.zeros(len(pot_list))
 pot_count = 0
 timer = 20  # Timer duration in minutes
+pot_threshold = 0.6
+
 
 # Logging Setup
 userfilename = sys.argv[1]
 timestamp = datetime.datetime.now().strftime("%d%b%Y_%H%M%S")
 csv_filename = f"C:/Users/kathe/Desktop/ClusterxSMFC/ClusterxMFC/ENTS_data_{timestamp}.csv"
 savefile = "ents_cluster_server_" + f"{timestamp}_" + userfilename + ".csv"
+
 
 def initialize_csv():
     with open(savefile, mode='w', newline='') as file:
@@ -38,6 +43,8 @@ log_excel(f"Log file initialized: {userfilename}")
 log_excel(["TEST PROFILE", f"Pot increments: {len(pot_list)}", f"Timer: {timer} min"])
 log_excel("--------------------------------------------------")
 
+
+
 # ESP32 Communication
 def send_command(cmd):
     try:
@@ -48,17 +55,29 @@ def send_command(cmd):
     except Exception as e:
         log_excel(f"Failed to send command: {cmd} | Error: {e}")
 
+def open_ckt():
+    log_excel("open ckt potentiometer\n")
+    send_command("pot off")
+    send_command("pot off") #redudant call but need troubleshooting
+
+    time.sleep(1*60)
+
+#open ckt pot 
+open_ckt()
+
+
 def start_timer_pot(pot):
-    global timer_started, timer
+    global timer_started, timer, pot_cycle_complete, pot_count, voltage
     log_excel("Voltage threshold reached. Starting timer.")
 
     send_command(f"pot {pot}")
     time.sleep(timer * 60)
-    timer_started = False
     log_excel("Timer ended. Turning off potentiometer.")
+    #pot_cycle_complete[pot_count] = voltage
     send_command("pot off")
-    send_command("pot off")  # Redundant call (can be debugged)
+    send_command("pot off") #redudant call but need troubleshooting
     time.sleep(2*60)
+    timer_started = False
 
 # Prometheus Metrics
 voltage_gauge = Gauge('soil_sensor_voltage', 'Voltage from soil sensor', ['logger_id'])
@@ -76,8 +95,9 @@ def health_check():
 
 @app.route('/data', methods=['POST'])
 def receive_data():
-    global timer_started, pot_count, pot_list
+    global timer_started, pot_count, pot_list,pot_threshold, pot_cycle_complete
     data = request.data
+
 
     try:
         meas = decode_measurement(data, raw=False)
@@ -88,20 +108,26 @@ def receive_data():
             current = meas['data']['current']
             logger_id = str(meas['loggerId'])
 
+
             log_excel(f"Voltage: {voltage:.3f} V | Current: {current:.6f} A")
             voltage_gauge.labels(logger_id=logger_id).set(voltage)
             current_gauge.labels(logger_id=logger_id).set(current)
 
-            if not timer_started:
-                log_excel("Starting potentiometer adjustment thread")
+            if (voltage>pot_threshold) and (not timer_started):
+                log_excel("f{voltage} detected above {pot_threshold} Starting potentiometer adjustment thread")
                 if pot_count >= len(pot_list):
                     pot_count = 0
+                    print(pot_cycle_complete)
+                    pot_cycle_complete = np.zeros(len(pot_list))
                 timer_started = True
                 threading.Thread(
                     target=start_timer_pot, args=(pot_list[pot_count],), daemon=True
                 ).start()
+                
                 pot_count += 1
+                
                 log_excel(f"Next pot value index: {pot_count}")
+
 
         elif meas['type'] == 'bme280':
             temperature = meas['data']['temperature']

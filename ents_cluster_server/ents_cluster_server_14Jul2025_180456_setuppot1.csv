@@ -1,0 +1,132 @@
+Timestamp,Voltage (V),Current (A)
+[18:04:56] Log file initialized: setuppot1
+[18:04:56] ['TEST PROFILE', 'Pot increments: 10', 'Timer: 1 min']
+[18:04:56] --------------------------------------------------
+[18:04:56] Flask server starting on port 5000...
+[18:05:05] open ckt potentiometer
+
+[18:05:08] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:05:11] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:05:21] open ckt potentiometer
+
+[18:05:24] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:05:27] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:05:37] open ckt potentiometer
+
+[18:05:40] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:05:43] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:05:54] open ckt potentiometer
+
+[18:05:57] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:06:00] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:06:10] open ckt potentiometer
+
+[18:06:13] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:06:16] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:06:26] open ckt potentiometer
+
+[18:06:29] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:06:32] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:06:42] open ckt potentiometer
+
+[18:06:45] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:06:48] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:06:59] open ckt potentiometer
+
+[18:07:02] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:07:05] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:07:11] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 1538, 'type': 'bme280', 'data': {'pressure': 10069.9, 'temperature': 24.59, 'humidity': 44.045}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[18:07:11] Temperature: 24.59 C | Humidity: 44.05 %
+[18:07:15] open ckt potentiometer
+
+[18:07:18] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:07:21] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:07:27] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 1966, 'type': 'power', 'data': {'voltage': 0.7094629642499999, 'current': 6.648151499428299e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[18:07:27] Voltage: 0.709 V | Current: 0.000066 A
+[18:07:31] open ckt potentiometer
+
+[18:07:34] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:07:37] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:07:43] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 1966, 'type': 'bme280', 'data': {'pressure': 10069.7, 'temperature': 25.43, 'humidity': 42.893}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[18:07:43] Temperature: 25.43 C | Humidity: 42.89 %
+[18:07:48] open ckt potentiometer
+
+[18:07:51] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:07:54] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:08:00] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 1982, 'type': 'power', 'data': {'voltage': 0.70946768685, 'current': 6.7641409026232e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[18:08:00] Voltage: 0.709 V | Current: 0.000068 A
+[18:08:04] open ckt potentiometer
+
+[18:08:07] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:08:10] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:08:16] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 1982, 'type': 'bme280', 'data': {'pressure': 10070.0, 'temperature': 25.43, 'humidity': 41.966}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[18:08:16] Temperature: 25.43 C | Humidity: 41.97 %
+[18:08:20] open ckt potentiometer
+
+[18:08:23] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:08:26] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:08:32] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 1998, 'type': 'power', 'data': {'voltage': 0.70943226735, 'current': 6.7460008855642e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[18:08:32] Voltage: 0.709 V | Current: 0.000067 A
+[18:08:37] open ckt potentiometer
+
+[18:08:40] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:08:43] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:08:48] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 1998, 'type': 'bme280', 'data': {'pressure': 10069.7, 'temperature': 25.38, 'humidity': 42.02}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[18:08:48] Temperature: 25.38 C | Humidity: 42.02 %
+[18:08:53] open ckt potentiometer
+
+[18:08:56] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:08:59] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:09:05] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 2015, 'type': 'power', 'data': {'voltage': 0.70950782895, 'current': 6.6065835910565e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[18:09:05] Voltage: 0.710 V | Current: 0.000066 A
+[18:09:09] open ckt potentiometer
+
+[18:09:12] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:09:15] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:09:21] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 2015, 'type': 'bme280', 'data': {'pressure': 10069.7, 'temperature': 25.36, 'humidity': 42.03}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[18:09:21] Temperature: 25.36 C | Humidity: 42.03 %
+[18:09:26] open ckt potentiometer
+
+[18:09:29] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:09:32] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:09:37] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 2031, 'type': 'power', 'data': {'voltage': 0.7095294742, 'current': 6.598058968660799e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[18:09:37] Voltage: 0.710 V | Current: 0.000066 A
+[18:09:42] open ckt potentiometer
+
+[18:09:45] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:09:48] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:09:54] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 2031, 'type': 'bme280', 'data': {'pressure': 10069.2, 'temperature': 25.31, 'humidity': 42.227}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[18:09:54] Temperature: 25.31 C | Humidity: 42.23 %
+[18:09:58] open ckt potentiometer
+
+[18:10:01] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:10:04] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:10:10] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 2047, 'type': 'power', 'data': {'voltage': 0.7095271128999999, 'current': 6.6247236081155e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[18:10:10] Voltage: 0.710 V | Current: 0.000066 A
+[18:10:15] open ckt potentiometer
+
+[18:10:18] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:10:21] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:10:26] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 2047, 'type': 'bme280', 'data': {'pressure': 10069.7, 'temperature': 25.34, 'humidity': 42.373}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[18:10:26] Temperature: 25.34 C | Humidity: 42.37 %
+[18:10:31] open ckt potentiometer
+
+[18:10:34] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:10:37] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:10:43] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 2064, 'type': 'power', 'data': {'voltage': 0.70955269365, 'current': 6.763974915538999e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[18:10:43] Voltage: 0.710 V | Current: 0.000068 A
+[18:10:47] open ckt potentiometer
+
+[18:10:50] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:10:53] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:10:59] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 2064, 'type': 'bme280', 'data': {'pressure': 10070.0, 'temperature': 25.33, 'humidity': 42.028}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[18:10:59] Temperature: 25.33 C | Humidity: 42.03 %
+[18:11:03] open ckt potentiometer
+
+[18:11:06] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:11:09] Failed to send command: pot off | Error: [Errno 113] No route to host
+[18:11:15] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 2080, 'type': 'power', 'data': {'voltage': 0.7095448226499999, 'current': 6.7921571511921e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[18:11:15] Voltage: 0.710 V | Current: 0.000068 A
+[18:11:20] open ckt potentiometer
+
+[18:11:23] Failed to send command: pot off | Error: [Errno 113] No route to host
