@@ -1,0 +1,8 @@
+Timestamp,Voltage (V),Current (A)
+[18:07:34] Log file initialized: test
+[18:07:34] ['TEST PROFILE', 'Pot increments: 7', 'Timer: 5 min']
+[18:07:34] --------------------------------------------------
+[18:07:34] open ckt potentiometer
+
+[18:07:34] Sent to ESP32: pot off
+[18:07:34] Sent to ESP32: pot off

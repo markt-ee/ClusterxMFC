@@ -1,0 +1,411 @@
+Timestamp,Voltage (V),Current (A)
+[19:13:27] Log file initialized: test
+[19:13:27] ['TEST PROFILE', 'Pot increments: 7', 'Timer: 1 min']
+[19:13:27] --------------------------------------------------
+[19:13:27] open ckt potentiometer
+
+[19:13:27] Sent to ESP32: pot off
+[19:13:27] Sent to ESP32: pot off
+[19:14:27] Flask server starting on port 5000...
+[19:14:35] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6590, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 22.94, 'humidity': 49.658}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:14:35] Temperature: 22.94 C | Humidity: 49.66 %
+[19:14:37] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6778, 'type': 'power', 'data': {'voltage': 0.6297112374, 'current': 6.6905493432211e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:14:37] Voltage: 0.630 V | Current: 0.000067 A
+[19:14:37] f{voltage} detected above {pot_threshold} Starting potentiometer adjustment thread
+[19:14:37] Voltage threshold reached. Starting timer.
+[19:14:37] Next pot value index: 2
+[19:14:37] Sent to ESP32: pot 4
+[19:14:38] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6778, 'type': 'bme280', 'data': {'pressure': 10083.1, 'temperature': 23.36, 'humidity': 48.641}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:14:38] Temperature: 23.36 C | Humidity: 48.64 %
+[19:14:39] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6780, 'type': 'power', 'data': {'voltage': 0.6296608629999999, 'current': 6.6988012725499e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:14:39] Voltage: 0.630 V | Current: 0.000067 A
+[19:14:40] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6780, 'type': 'bme280', 'data': {'pressure': 10082.8, 'temperature': 23.35, 'humidity': 48.663}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:14:40] Temperature: 23.35 C | Humidity: 48.66 %
+[19:14:55] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6789, 'type': 'power', 'data': {'voltage': 0.6297041535, 'current': 6.7206404303425e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:14:55] Voltage: 0.630 V | Current: 0.000067 A
+[19:14:56] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6789, 'type': 'bme280', 'data': {'pressure': 10082.3, 'temperature': 23.31, 'humidity': 48.707}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:14:56] Temperature: 23.31 C | Humidity: 48.71 %
+[19:15:05] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6800, 'type': 'power', 'data': {'voltage': 0.6297065148, 'current': 6.8199244191347e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:15:05] Voltage: 0.630 V | Current: 0.000068 A
+[19:15:06] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6800, 'type': 'bme280', 'data': {'pressure': 10083.1, 'temperature': 23.26, 'humidity': 48.749}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:15:06] Temperature: 23.26 C | Humidity: 48.75 %
+[19:15:15] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6810, 'type': 'power', 'data': {'voltage': 0.62971635355, 'current': 6.8065031777551e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:15:15] Voltage: 0.630 V | Current: 0.000068 A
+[19:15:16] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6810, 'type': 'bme280', 'data': {'pressure': 10083.9, 'temperature': 23.22, 'humidity': 48.579}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:15:16] Temperature: 23.22 C | Humidity: 48.58 %
+[19:15:25] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6820, 'type': 'power', 'data': {'voltage': 0.6297214697, 'current': 6.713348854857999e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:15:25] Voltage: 0.630 V | Current: 0.000067 A
+[19:15:26] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6820, 'type': 'bme280', 'data': {'pressure': 10083.9, 'temperature': 23.18, 'humidity': 48.823}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:15:26] Temperature: 23.18 C | Humidity: 48.82 %
+[19:15:35] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6830, 'type': 'power', 'data': {'voltage': 0.6297120245, 'current': 6.6631851867687e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:15:35] Voltage: 0.630 V | Current: 0.000067 A
+[19:15:36] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6830, 'type': 'bme280', 'data': {'pressure': 10083.9, 'temperature': 23.15, 'humidity': 48.949}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:15:36] Temperature: 23.15 C | Humidity: 48.95 %
+[19:15:37] Timer ended. Turning off potentiometer. Saving Potentiometer Cycle Voltage and Current Values
+[19:15:37] [0.         0.         0.62971202 0.         0.         0.
+ 0.         0.         0.        ]
+[19:15:37] [0.00000000e+00 0.00000000e+00 6.66318519e-05 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+ 0.00000000e+00]
+[19:15:37] Sent to ESP32: pot off
+[19:15:37] Sent to ESP32: pot off
+[19:15:45] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6840, 'type': 'power', 'data': {'voltage': 0.6297214697, 'current': 6.6897905451219e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:15:45] Voltage: 0.630 V | Current: 0.000067 A
+[19:15:46] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6840, 'type': 'bme280', 'data': {'pressure': 10083.7, 'temperature': 23.13, 'humidity': 48.852}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:15:46] Temperature: 23.13 C | Humidity: 48.85 %
+[19:15:55] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6850, 'type': 'power', 'data': {'voltage': 0.62976279245, 'current': 6.7645558703337e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:15:55] Voltage: 0.630 V | Current: 0.000068 A
+[19:15:56] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6850, 'type': 'bme280', 'data': {'pressure': 10083.7, 'temperature': 23.11, 'humidity': 48.969}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:15:56] Temperature: 23.11 C | Humidity: 48.97 %
+[19:16:05] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6860, 'type': 'power', 'data': {'voltage': 0.62975334725, 'current': 6.7796488387756e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:16:05] Voltage: 0.630 V | Current: 0.000068 A
+[19:16:06] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6860, 'type': 'bme280', 'data': {'pressure': 10083.4, 'temperature': 23.09, 'humidity': 49.108}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:16:06] Temperature: 23.09 C | Humidity: 49.11 %
+[19:16:15] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6870, 'type': 'power', 'data': {'voltage': 0.6297529537, 'current': 6.6612881915207e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:16:15] Voltage: 0.630 V | Current: 0.000067 A
+[19:16:16] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6870, 'type': 'bme280', 'data': {'pressure': 10083.9, 'temperature': 23.08, 'humidity': 48.93}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:16:16] Temperature: 23.08 C | Humidity: 48.93 %
+[19:16:25] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6880, 'type': 'power', 'data': {'voltage': 0.6297608246999999, 'current': 6.7939830091183e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:16:25] Voltage: 0.630 V | Current: 0.000068 A
+[19:16:26] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6880, 'type': 'bme280', 'data': {'pressure': 10083.7, 'temperature': 23.07, 'humidity': 48.799}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:16:26] Temperature: 23.07 C | Humidity: 48.80 %
+[19:16:35] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6890, 'type': 'power', 'data': {'voltage': 0.6297415407499999, 'current': 6.766085322752399e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:16:35] Voltage: 0.630 V | Current: 0.000068 A
+[19:16:36] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6890, 'type': 'bme280', 'data': {'pressure': 10083.7, 'temperature': 23.06, 'humidity': 48.987}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:16:36] Temperature: 23.06 C | Humidity: 48.99 %
+[19:16:45] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6900, 'type': 'power', 'data': {'voltage': 0.6297879796499999, 'current': 6.7459297482424e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:16:45] Voltage: 0.630 V | Current: 0.000067 A
+[19:16:45] f{voltage} detected above {pot_threshold} Starting potentiometer adjustment thread
+[19:16:45] Voltage threshold reached. Starting timer.
+[19:16:45] Next pot value index: 3
+[19:16:45] Sent to ESP32: pot 3
+[19:16:46] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6900, 'type': 'bme280', 'data': {'pressure': 10083.7, 'temperature': 23.06, 'humidity': 49.045}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:16:46] Temperature: 23.06 C | Humidity: 49.05 %
+[19:16:55] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6910, 'type': 'power', 'data': {'voltage': 0.6297852247999999, 'current': 6.7163603348142e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:16:55] Voltage: 0.630 V | Current: 0.000067 A
+[19:16:56] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6910, 'type': 'bme280', 'data': {'pressure': 10083.1, 'temperature': 23.04, 'humidity': 49.114}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:16:56] Temperature: 23.04 C | Humidity: 49.11 %
+[19:17:05] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6920, 'type': 'power', 'data': {'voltage': 0.6297923086999999, 'current': 6.8190707712731e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:17:05] Voltage: 0.630 V | Current: 0.000068 A
+[19:17:06] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6920, 'type': 'bme280', 'data': {'pressure': 10083.7, 'temperature': 23.03, 'humidity': 49.16}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:17:06] Temperature: 23.03 C | Humidity: 49.16 %
+[19:17:15] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6930, 'type': 'power', 'data': {'voltage': 0.6298009668, 'current': 6.730967198223799e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:17:15] Voltage: 0.630 V | Current: 0.000067 A
+[19:17:16] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6930, 'type': 'bme280', 'data': {'pressure': 10083.7, 'temperature': 23.02, 'humidity': 49.23}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:17:16] Temperature: 23.02 C | Humidity: 49.23 %
+[19:17:25] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6940, 'type': 'power', 'data': {'voltage': 0.62981552815, 'current': 6.7885884288818e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:17:25] Voltage: 0.630 V | Current: 0.000068 A
+[19:17:26] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6940, 'type': 'bme280', 'data': {'pressure': 10083.4, 'temperature': 23.01, 'humidity': 49.347}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:17:26] Temperature: 23.01 C | Humidity: 49.35 %
+[19:17:35] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6950, 'type': 'power', 'data': {'voltage': 0.6298324507999999, 'current': 6.7119498208626e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:17:35] Voltage: 0.630 V | Current: 0.000067 A
+[19:17:36] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6950, 'type': 'bme280', 'data': {'pressure': 10083.2, 'temperature': 23.0, 'humidity': 49.393}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:17:36] Temperature: 23.00 C | Humidity: 49.39 %
+[19:17:45] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6960, 'type': 'power', 'data': {'voltage': 0.62982497335, 'current': 6.6526805755829e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:17:45] Voltage: 0.630 V | Current: 0.000067 A
+[19:17:45] Timer ended. Turning off potentiometer. Saving Potentiometer Cycle Voltage and Current Values
+[19:17:45] [0.         0.         0.62971202 0.62982497 0.         0.
+ 0.         0.         0.        ]
+[19:17:45] [0.00000000e+00 0.00000000e+00 6.66318519e-05 6.65268058e-05
+ 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+ 0.00000000e+00]
+[19:17:45] Sent to ESP32: pot off
+[19:17:45] Sent to ESP32: pot off
+[19:17:46] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6960, 'type': 'bme280', 'data': {'pressure': 10083.4, 'temperature': 23.01, 'humidity': 49.323}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:17:46] Temperature: 23.01 C | Humidity: 49.32 %
+[19:17:55] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6970, 'type': 'power', 'data': {'voltage': 0.6298458315, 'current': 6.647843237700499e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:17:55] Voltage: 0.630 V | Current: 0.000066 A
+[19:17:56] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6970, 'type': 'bme280', 'data': {'pressure': 10084.0, 'temperature': 23.02, 'humidity': 49.029}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:17:56] Temperature: 23.02 C | Humidity: 49.03 %
+[19:18:05] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6980, 'type': 'power', 'data': {'voltage': 0.6298611799499999, 'current': 6.728121705351799e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:18:05] Voltage: 0.630 V | Current: 0.000067 A
+[19:18:06] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6980, 'type': 'bme280', 'data': {'pressure': 10083.4, 'temperature': 23.03, 'humidity': 49.03}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:18:06] Temperature: 23.03 C | Humidity: 49.03 %
+[19:18:15] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6990, 'type': 'power', 'data': {'voltage': 0.62986983805, 'current': 6.6368880901433e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:18:15] Voltage: 0.630 V | Current: 0.000066 A
+[19:18:16] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 6990, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 23.02, 'humidity': 49.1}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:18:16] Temperature: 23.02 C | Humidity: 49.10 %
+[19:18:25] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7000, 'type': 'power', 'data': {'voltage': 0.629841896, 'current': 6.7381046428444e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:18:25] Voltage: 0.630 V | Current: 0.000067 A
+[19:18:26] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7000, 'type': 'bme280', 'data': {'pressure': 10084.0, 'temperature': 23.03, 'humidity': 49.219}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:18:26] Temperature: 23.03 C | Humidity: 49.22 %
+[19:18:35] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7010, 'type': 'power', 'data': {'voltage': 0.6299060446499999, 'current': 6.7464988468168e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:18:35] Voltage: 0.630 V | Current: 0.000067 A
+[19:18:36] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7010, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 23.02, 'humidity': 49.359}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:18:36] Temperature: 23.02 C | Humidity: 49.36 %
+[19:18:45] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7020, 'type': 'power', 'data': {'voltage': 0.6298938446, 'current': 6.7843083333535e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:18:45] Voltage: 0.630 V | Current: 0.000068 A
+[19:18:46] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7020, 'type': 'bme280', 'data': {'pressure': 10083.1, 'temperature': 23.02, 'humidity': 49.43}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:18:46] Temperature: 23.02 C | Humidity: 49.43 %
+[19:18:55] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7030, 'type': 'power', 'data': {'voltage': 0.6299135221, 'current': 6.5522939583028e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:18:55] Voltage: 0.630 V | Current: 0.000066 A
+[19:18:55] f{voltage} detected above {pot_threshold} Starting potentiometer adjustment thread
+[19:18:55] Voltage threshold reached. Starting timer.
+[19:18:55] Next pot value index: 4
+[19:18:55] Sent to ESP32: pot 2
+[19:18:56] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7030, 'type': 'bme280', 'data': {'pressure': 10084.0, 'temperature': 23.01, 'humidity': 49.453}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:18:56] Temperature: 23.01 C | Humidity: 49.45 %
+[19:19:05] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7040, 'type': 'power', 'data': {'voltage': 0.6299249350499999, 'current': 6.7006745553573e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:19:05] Voltage: 0.630 V | Current: 0.000067 A
+[19:19:06] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7040, 'type': 'bme280', 'data': {'pressure': 10083.4, 'temperature': 23.0, 'humidity': 49.405}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:19:06] Temperature: 23.00 C | Humidity: 49.41 %
+[19:19:15] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7050, 'type': 'power', 'data': {'voltage': 0.6299312318499999, 'current': 6.7602283499242e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:19:15] Voltage: 0.630 V | Current: 0.000068 A
+[19:19:16] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7050, 'type': 'bme280', 'data': {'pressure': 10083.7, 'temperature': 23.01, 'humidity': 49.382}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:19:16] Temperature: 23.01 C | Humidity: 49.38 %
+[19:19:25] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7060, 'type': 'power', 'data': {'voltage': 0.6299170640499999, 'current': 6.604378334080699e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:19:25] Voltage: 0.630 V | Current: 0.000066 A
+[19:19:26] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7060, 'type': 'bme280', 'data': {'pressure': 10082.6, 'temperature': 23.02, 'humidity': 49.112}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:19:26] Temperature: 23.02 C | Humidity: 49.11 %
+[19:19:35] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7070, 'type': 'power', 'data': {'voltage': 0.6299505157999999, 'current': 6.7376422502527e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:19:35] Voltage: 0.630 V | Current: 0.000067 A
+[19:19:36] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7070, 'type': 'bme280', 'data': {'pressure': 10083.7, 'temperature': 23.03, 'humidity': 49.301}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:19:36] Temperature: 23.03 C | Humidity: 49.30 %
+[19:19:45] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7080, 'type': 'power', 'data': {'voltage': 0.6299497286999999, 'current': 6.7294614582457e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:19:45] Voltage: 0.630 V | Current: 0.000067 A
+[19:19:46] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7080, 'type': 'bme280', 'data': {'pressure': 10083.4, 'temperature': 23.04, 'humidity': 49.351}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:19:46] Temperature: 23.04 C | Humidity: 49.35 %
+[19:19:55] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7090, 'type': 'power', 'data': {'voltage': 0.62996586425, 'current': 6.7287975099089e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:19:55] Voltage: 0.630 V | Current: 0.000067 A
+[19:19:55] Timer ended. Turning off potentiometer. Saving Potentiometer Cycle Voltage and Current Values
+[19:19:55] [0.         0.         0.62971202 0.62982497 0.62996586 0.
+ 0.         0.         0.        ]
+[19:19:55] [0.00000000e+00 0.00000000e+00 6.66318519e-05 6.65268058e-05
+ 6.72879751e-05 0.00000000e+00 0.00000000e+00 0.00000000e+00
+ 0.00000000e+00]
+[19:19:55] Sent to ESP32: pot off
+[19:19:55] Sent to ESP32: pot off
+[19:19:56] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7090, 'type': 'bme280', 'data': {'pressure': 10083.7, 'temperature': 23.05, 'humidity': 49.328}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:19:56] Temperature: 23.05 C | Humidity: 49.33 %
+[19:20:05] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7100, 'type': 'power', 'data': {'voltage': 0.6299993159999999, 'current': 6.6626990817364e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:20:05] Voltage: 0.630 V | Current: 0.000067 A
+[19:20:06] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7100, 'type': 'bme280', 'data': {'pressure': 10082.6, 'temperature': 23.05, 'humidity': 49.245}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:20:06] Temperature: 23.05 C | Humidity: 49.24 %
+[19:20:15] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7110, 'type': 'power', 'data': {'voltage': 0.63000836765, 'current': 6.714297352481999e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:20:15] Voltage: 0.630 V | Current: 0.000067 A
+[19:20:16] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7110, 'type': 'bme280', 'data': {'pressure': 10083.4, 'temperature': 23.06, 'humidity': 49.341}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:20:16] Temperature: 23.06 C | Humidity: 49.34 %
+[19:20:25] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7120, 'type': 'power', 'data': {'voltage': 0.63002725805, 'current': 6.701421497236199e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:20:25] Voltage: 0.630 V | Current: 0.000067 A
+[19:20:26] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7120, 'type': 'bme280', 'data': {'pressure': 10083.4, 'temperature': 23.05, 'humidity': 49.34}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:20:26] Temperature: 23.05 C | Humidity: 49.34 %
+[19:20:35] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7130, 'type': 'power', 'data': {'voltage': 0.63000836765, 'current': 6.6386072420868e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:20:35] Voltage: 0.630 V | Current: 0.000066 A
+[19:20:36] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7130, 'type': 'bme280', 'data': {'pressure': 10083.4, 'temperature': 23.04, 'humidity': 49.374}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:20:36] Temperature: 23.04 C | Humidity: 49.37 %
+[19:20:45] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7140, 'type': 'power', 'data': {'voltage': 0.6300001031, 'current': 6.6119307464118e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:20:45] Voltage: 0.630 V | Current: 0.000066 A
+[19:20:46] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7140, 'type': 'bme280', 'data': {'pressure': 10083.1, 'temperature': 23.05, 'humidity': 49.268}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:20:46] Temperature: 23.05 C | Humidity: 49.27 %
+[19:20:55] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7150, 'type': 'power', 'data': {'voltage': 0.6300386709999999, 'current': 6.7229286808604e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:20:55] Voltage: 0.630 V | Current: 0.000067 A
+[19:20:56] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7150, 'type': 'bme280', 'data': {'pressure': 10083.4, 'temperature': 23.04, 'humidity': 49.351}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:20:56] Temperature: 23.04 C | Humidity: 49.35 %
+[19:21:05] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7160, 'type': 'power', 'data': {'voltage': 0.63003040645, 'current': 6.6826649567216e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:21:05] Voltage: 0.630 V | Current: 0.000067 A
+[19:21:05] f{voltage} detected above {pot_threshold} Starting potentiometer adjustment thread
+[19:21:05] Voltage threshold reached. Starting timer.
+[19:21:05] Next pot value index: 5
+[19:21:05] Sent to ESP32: pot 1
+[19:21:06] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7160, 'type': 'bme280', 'data': {'pressure': 10083.1, 'temperature': 23.04, 'humidity': 49.397}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:21:06] Temperature: 23.04 C | Humidity: 49.40 %
+[19:21:15] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7170, 'type': 'power', 'data': {'voltage': 0.63006267755, 'current': 6.6834830359223e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:21:15] Voltage: 0.630 V | Current: 0.000067 A
+[19:21:16] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7170, 'type': 'bme280', 'data': {'pressure': 10083.1, 'temperature': 23.03, 'humidity': 49.455}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:21:16] Temperature: 23.03 C | Humidity: 49.45 %
+[19:21:25] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7180, 'type': 'power', 'data': {'voltage': 0.6300921937999999, 'current': 6.706282547559199e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:21:25] Voltage: 0.630 V | Current: 0.000067 A
+[19:21:26] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7180, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 23.02, 'humidity': 49.548}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:21:26] Temperature: 23.02 C | Humidity: 49.55 %
+[19:21:35] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7190, 'type': 'power', 'data': {'voltage': 0.6300567743, 'current': 6.6977460689432e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:21:35] Voltage: 0.630 V | Current: 0.000067 A
+[19:21:36] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7190, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 23.02, 'humidity': 49.643}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:21:36] Temperature: 23.02 C | Humidity: 49.64 %
+[19:21:45] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7200, 'type': 'power', 'data': {'voltage': 0.6300961292999999, 'current': 6.6587746728171e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:21:45] Voltage: 0.630 V | Current: 0.000067 A
+[19:21:46] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7200, 'type': 'bme280', 'data': {'pressure': 10082.3, 'temperature': 23.01, 'humidity': 49.677}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:21:46] Temperature: 23.01 C | Humidity: 49.68 %
+[19:21:55] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7210, 'type': 'power', 'data': {'voltage': 0.63010596805, 'current': 6.78496042547e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:21:55] Voltage: 0.630 V | Current: 0.000068 A
+[19:21:56] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7210, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 23.01, 'humidity': 49.712}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:21:56] Temperature: 23.01 C | Humidity: 49.71 %
+[19:22:05] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7220, 'type': 'power', 'data': {'voltage': 0.6301024261, 'current': 6.6817757401991e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:22:05] Voltage: 0.630 V | Current: 0.000067 A
+[19:22:05] Timer ended. Turning off potentiometer. Saving Potentiometer Cycle Voltage and Current Values
+[19:22:05] [0.         0.         0.62971202 0.62982497 0.62996586 0.63010243
+ 0.         0.         0.        ]
+[19:22:05] [0.00000000e+00 0.00000000e+00 6.66318519e-05 6.65268058e-05
+ 6.72879751e-05 6.68177574e-05 0.00000000e+00 0.00000000e+00
+ 0.00000000e+00]
+[19:22:05] Sent to ESP32: pot off
+[19:22:05] Sent to ESP32: pot off
+[19:22:06] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7220, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 23.01, 'humidity': 49.677}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:22:06] Temperature: 23.01 C | Humidity: 49.68 %
+[19:22:15] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7230, 'type': 'power', 'data': {'voltage': 0.63012643265, 'current': 6.7313940221546e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:22:15] Voltage: 0.630 V | Current: 0.000067 A
+[19:22:16] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7230, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 23.02, 'humidity': 49.702}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:22:16] Temperature: 23.02 C | Humidity: 49.70 %
+[19:22:25] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7240, 'type': 'power', 'data': {'voltage': 0.6301504391999999, 'current': 6.697342957453e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:22:25] Voltage: 0.630 V | Current: 0.000067 A
+[19:22:26] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7240, 'type': 'bme280', 'data': {'pressure': 10082.3, 'temperature': 23.02, 'humidity': 49.784}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:22:26] Temperature: 23.02 C | Humidity: 49.78 %
+[19:22:35] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7250, 'type': 'power', 'data': {'voltage': 0.63013823915, 'current': 6.791599908838e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:22:35] Voltage: 0.630 V | Current: 0.000068 A
+[19:22:36] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7250, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 23.01, 'humidity': 49.736}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:22:36] Temperature: 23.01 C | Humidity: 49.74 %
+[19:22:45] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7260, 'type': 'power', 'data': {'voltage': 0.6301622457, 'current': 6.7287145163668e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:22:45] Voltage: 0.630 V | Current: 0.000067 A
+[19:22:46] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7260, 'type': 'bme280', 'data': {'pressure': 10082.6, 'temperature': 23.01, 'humidity': 49.748}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:22:46] Temperature: 23.01 C | Humidity: 49.75 %
+[19:22:55] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7270, 'type': 'power', 'data': {'voltage': 0.63015083275, 'current': 6.6991569591589e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:22:55] Voltage: 0.630 V | Current: 0.000067 A
+[19:22:56] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7270, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 23.01, 'humidity': 49.712}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:22:56] Temperature: 23.01 C | Humidity: 49.71 %
+[19:23:05] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7280, 'type': 'power', 'data': {'voltage': 0.6301378456, 'current': 6.6828190875855e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:23:05] Voltage: 0.630 V | Current: 0.000067 A
+[19:23:06] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7280, 'type': 'bme280', 'data': {'pressure': 10083.1, 'temperature': 23.02, 'humidity': 49.69}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:23:06] Temperature: 23.02 C | Humidity: 49.69 %
+[19:23:15] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7290, 'type': 'power', 'data': {'voltage': 0.63019097485, 'current': 6.6715675345208e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:23:15] Voltage: 0.630 V | Current: 0.000067 A
+[19:23:15] f{voltage} detected above {pot_threshold} Starting potentiometer adjustment thread
+[19:23:15] Next pot value index: 6
+[19:23:15] Voltage threshold reached. Starting timer.
+[19:23:15] Sent to ESP32: pot 0
+[19:23:16] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7290, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 23.04, 'humidity': 49.645}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:23:16] Temperature: 23.04 C | Humidity: 49.65 %
+[19:23:25] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7300, 'type': 'power', 'data': {'voltage': 0.6302086846, 'current': 6.758758178607e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:23:25] Voltage: 0.630 V | Current: 0.000068 A
+[19:23:26] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7300, 'type': 'bme280', 'data': {'pressure': 10083.1, 'temperature': 23.04, 'humidity': 49.705}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:23:26] Temperature: 23.04 C | Humidity: 49.70 %
+[19:23:35] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7310, 'type': 'power', 'data': {'voltage': 0.63020671685, 'current': 6.742349169711799e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:23:35] Voltage: 0.630 V | Current: 0.000067 A
+[19:23:36] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7310, 'type': 'bme280', 'data': {'pressure': 10082.6, 'temperature': 23.04, 'humidity': 49.705}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:23:36] Temperature: 23.04 C | Humidity: 49.70 %
+[19:23:45] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7320, 'type': 'power', 'data': {'voltage': 0.6302252137, 'current': 6.6505583121492e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:23:45] Voltage: 0.630 V | Current: 0.000067 A
+[19:23:46] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7320, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 23.04, 'humidity': 49.704}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:23:46] Temperature: 23.04 C | Humidity: 49.70 %
+[19:23:55] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7330, 'type': 'power', 'data': {'voltage': 0.6302362331, 'current': 6.7361839351558e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:23:55] Voltage: 0.630 V | Current: 0.000067 A
+[19:23:56] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7330, 'type': 'bme280', 'data': {'pressure': 10083.7, 'temperature': 23.03, 'humidity': 49.703}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:23:56] Temperature: 23.03 C | Humidity: 49.70 %
+[19:24:05] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7340, 'type': 'power', 'data': {'voltage': 0.6302464654, 'current': 6.8348514004924e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:24:05] Voltage: 0.630 V | Current: 0.000068 A
+[19:24:06] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7340, 'type': 'bme280', 'data': {'pressure': 10083.4, 'temperature': 23.03, 'humidity': 49.773}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:24:06] Temperature: 23.03 C | Humidity: 49.77 %
+[19:24:15] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7350, 'type': 'power', 'data': {'voltage': 0.6302771623, 'current': 6.720415162156799e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:24:15] Voltage: 0.630 V | Current: 0.000067 A
+[19:24:15] Timer ended. Turning off potentiometer. Saving Potentiometer Cycle Voltage and Current Values
+[19:24:15] [0.         0.         0.62971202 0.62982497 0.62996586 0.63010243
+ 0.63027716 0.         0.        ]
+[19:24:15] [0.00000000e+00 0.00000000e+00 6.66318519e-05 6.65268058e-05
+ 6.72879751e-05 6.68177574e-05 6.72041516e-05 0.00000000e+00
+ 0.00000000e+00]
+[19:24:15] Sent to ESP32: pot off
+[19:24:15] Sent to ESP32: pot off
+[19:24:16] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7350, 'type': 'bme280', 'data': {'pressure': 10082.3, 'temperature': 23.02, 'humidity': 49.879}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:24:16] Temperature: 23.02 C | Humidity: 49.88 %
+[19:24:25] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7360, 'type': 'power', 'data': {'voltage': 0.6302677171, 'current': 6.6603278376764e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:24:25] Voltage: 0.630 V | Current: 0.000067 A
+[19:24:26] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7360, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 23.02, 'humidity': 49.879}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:24:26] Temperature: 23.02 C | Humidity: 49.88 %
+[19:24:35] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7370, 'type': 'power', 'data': {'voltage': 0.630282672, 'current': 6.6919602334368e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:24:35] Voltage: 0.630 V | Current: 0.000067 A
+[19:24:36] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7370, 'type': 'bme280', 'data': {'pressure': 10082.3, 'temperature': 23.03, 'humidity': 49.903}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:24:36] Temperature: 23.03 C | Humidity: 49.90 %
+[19:24:45] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7380, 'type': 'power', 'data': {'voltage': 0.6302539428499999, 'current': 6.7585921915228e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:24:45] Voltage: 0.630 V | Current: 0.000068 A
+[19:24:46] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7380, 'type': 'bme280', 'data': {'pressure': 10083.1, 'temperature': 23.03, 'humidity': 49.903}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:24:46] Temperature: 23.03 C | Humidity: 49.90 %
+[19:24:55] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7390, 'type': 'power', 'data': {'voltage': 0.6302622073999999, 'current': 6.6947938700885e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:24:55] Voltage: 0.630 V | Current: 0.000067 A
+[19:24:56] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7390, 'type': 'bme280', 'data': {'pressure': 10083.1, 'temperature': 23.03, 'humidity': 49.986}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:24:56] Temperature: 23.03 C | Humidity: 49.99 %
+[19:25:05] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7400, 'type': 'power', 'data': {'voltage': 0.6303196657, 'current': 6.752118695239e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:25:05] Voltage: 0.630 V | Current: 0.000068 A
+[19:25:06] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7400, 'type': 'bme280', 'data': {'pressure': 10082.6, 'temperature': 23.02, 'humidity': 49.973}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:25:06] Temperature: 23.02 C | Humidity: 49.97 %
+[19:25:15] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7410, 'type': 'power', 'data': {'voltage': 0.6303188785999999, 'current': 6.7800045253846e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:25:15] Voltage: 0.630 V | Current: 0.000068 A
+[19:25:16] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7410, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 23.03, 'humidity': 49.974}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:25:16] Temperature: 23.03 C | Humidity: 49.97 %
+[19:25:25] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7420, 'type': 'power', 'data': {'voltage': 0.63032005925, 'current': 6.8336776346827e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:25:25] Voltage: 0.630 V | Current: 0.000068 A
+[19:25:25] f{voltage} detected above {pot_threshold} Starting potentiometer adjustment thread
+[19:25:25] Next pot value index: 7
+[19:25:25] Voltage threshold reached. Starting timer.
+[19:25:25] Sent to ESP32: pot 0
+[19:25:26] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7420, 'type': 'bme280', 'data': {'pressure': 10082.6, 'temperature': 23.04, 'humidity': 49.929}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:25:26] Temperature: 23.04 C | Humidity: 49.93 %
+[19:25:35] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7430, 'type': 'power', 'data': {'voltage': 0.6303314722, 'current': 6.6933355549916e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:25:35] Voltage: 0.630 V | Current: 0.000067 A
+[19:25:36] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7430, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 23.04, 'humidity': 49.94}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:25:36] Temperature: 23.04 C | Humidity: 49.94 %
+[19:25:45] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7440, 'type': 'power', 'data': {'voltage': 0.63034052385, 'current': 6.6133653490681e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:25:45] Voltage: 0.630 V | Current: 0.000066 A
+[19:25:46] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7440, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 23.03, 'humidity': 50.021}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:25:46] Temperature: 23.03 C | Humidity: 50.02 %
+[19:25:55] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7450, 'type': 'power', 'data': {'voltage': 0.6303487884, 'current': 6.653640929427199e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:25:55] Voltage: 0.630 V | Current: 0.000067 A
+[19:25:56] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7450, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 23.03, 'humidity': 50.021}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:25:56] Temperature: 23.03 C | Humidity: 50.02 %
+[19:26:05] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7460, 'type': 'power', 'data': {'voltage': 0.6303448529, 'current': 6.621569853515699e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:26:05] Voltage: 0.630 V | Current: 0.000066 A
+[19:26:06] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7460, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 23.02, 'humidity': 50.032}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:26:06] Temperature: 23.02 C | Humidity: 50.03 %
+[19:26:15] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7470, 'type': 'power', 'data': {'voltage': 0.6303826336999999, 'current': 6.7824113381055e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:26:15] Voltage: 0.630 V | Current: 0.000068 A
+[19:26:16] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7470, 'type': 'bme280', 'data': {'pressure': 10083.4, 'temperature': 23.01, 'humidity': 50.054}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:26:16] Temperature: 23.01 C | Humidity: 50.05 %
+[19:26:25] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7480, 'type': 'power', 'data': {'voltage': 0.6303680723499999, 'current': 6.769891169468699e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:26:25] Voltage: 0.630 V | Current: 0.000068 A
+[19:26:25] Timer ended. Turning off potentiometer. Saving Potentiometer Cycle Voltage and Current Values
+[19:26:25] [0.         0.         0.62971202 0.62982497 0.62996586 0.63010243
+ 0.63027716 0.63036807 0.        ]
+[19:26:25] [0.00000000e+00 0.00000000e+00 6.66318519e-05 6.65268058e-05
+ 6.72879751e-05 6.68177574e-05 6.72041516e-05 6.76989117e-05
+ 0.00000000e+00]
+[19:26:25] Sent to ESP32: pot off
+[19:26:25] Sent to ESP32: pot off
+[19:26:26] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7480, 'type': 'bme280', 'data': {'pressure': 10083.1, 'temperature': 23.01, 'humidity': 50.066}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:26:26] Temperature: 23.01 C | Humidity: 50.07 %
+[19:26:35] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7490, 'type': 'power', 'data': {'voltage': 0.6303932595499999, 'current': 6.6147525268432e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:26:35] Voltage: 0.630 V | Current: 0.000066 A
+[19:26:36] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7490, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 23.01, 'humidity': 50.125}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:26:36] Temperature: 23.01 C | Humidity: 50.12 %
+[19:26:45] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7500, 'type': 'power', 'data': {'voltage': 0.6304184467499999, 'current': 6.843174467143e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:26:45] Voltage: 0.630 V | Current: 0.000068 A
+[19:26:46] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7500, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 23.0, 'humidity': 50.207}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:26:46] Temperature: 23.00 C | Humidity: 50.21 %
+[19:26:55] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7510, 'type': 'power', 'data': {'voltage': 0.63044284685, 'current': 6.751952708154799e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:26:55] Voltage: 0.630 V | Current: 0.000068 A
+[19:26:56] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7510, 'type': 'bme280', 'data': {'pressure': 10083.1, 'temperature': 23.01, 'humidity': 50.267}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:26:56] Temperature: 23.01 C | Humidity: 50.27 %
+[19:27:05] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7520, 'type': 'power', 'data': {'voltage': 0.6304204145, 'current': 6.6933592674322e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:27:05] Voltage: 0.630 V | Current: 0.000067 A
+[19:27:06] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7520, 'type': 'bme280', 'data': {'pressure': 10083.7, 'temperature': 23.0, 'humidity': 50.242}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:27:06] Temperature: 23.00 C | Humidity: 50.24 %
+[19:27:15] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7530, 'type': 'power', 'data': {'voltage': 0.6304597695, 'current': 6.7155303993932e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:27:15] Voltage: 0.630 V | Current: 0.000067 A
+[19:27:16] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7530, 'type': 'bme280', 'data': {'pressure': 10082.9, 'temperature': 22.99, 'humidity': 50.206}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:27:16] Temperature: 22.99 C | Humidity: 50.21 %
+[19:27:25] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7540, 'type': 'power', 'data': {'voltage': 0.6304570146499999, 'current': 6.710503361985999e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:27:25] Voltage: 0.630 V | Current: 0.000067 A
+[19:27:26] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7540, 'type': 'bme280', 'data': {'pressure': 10083.7, 'temperature': 23.0, 'humidity': 50.183}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:27:26] Temperature: 23.00 C | Humidity: 50.18 %
+[19:27:35] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7550, 'type': 'power', 'data': {'voltage': 0.63048298895, 'current': 6.7053103374946e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:27:35] Voltage: 0.630 V | Current: 0.000067 A
+[19:27:35] f{voltage} detected above {pot_threshold} Starting potentiometer adjustment thread
+[19:27:35] Voltage threshold reached. Starting timer.
+[19:27:35] Next pot value index: 1
+[19:27:35] Sent to ESP32: pot 5
+[19:27:36] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7550, 'type': 'bme280', 'data': {'pressure': 10083.1, 'temperature': 23.0, 'humidity': 50.348}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:27:36] Temperature: 23.00 C | Humidity: 50.35 %
+[19:27:45] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7560, 'type': 'power', 'data': {'voltage': 0.63048456315, 'current': 6.6780647432452e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:27:45] Voltage: 0.630 V | Current: 0.000067 A
+[19:27:46] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7560, 'type': 'bme280', 'data': {'pressure': 10083.1, 'temperature': 22.99, 'humidity': 50.347}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:27:46] Temperature: 22.99 C | Humidity: 50.35 %
+[19:27:55] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7570, 'type': 'power', 'data': {'voltage': 0.6305038471, 'current': 6.6700262258818e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[19:27:55] Voltage: 0.631 V | Current: 0.000067 A
+[19:27:56] Received data: {'cellId': 11, 'loggerId': 11, 'ts': 7570, 'type': 'bme280', 'data': {'pressure': 10083.4, 'temperature': 22.99, 'humidity': 50.395}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[19:27:56] Temperature: 22.99 C | Humidity: 50.40 %

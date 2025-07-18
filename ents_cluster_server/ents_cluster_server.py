@@ -10,10 +10,12 @@ import sys
 import numpy as np
 
 # ESP32 Configuration
-ESP32_IP = "192.168.0.31"
+#ESP32_IP = "192.168.0.31"
+ESP32_IP = "192.168.0.30"
+
 PORT = 1234
 timer_started = False 
-pot_list = [100, 50, 25, 10, 8, 6, 4, 2, 1, 0]
+pot_list = [3,2,1,0]
 v_pot_cycle_complete = np.zeros(len(pot_list)+2)
 i_pot_cycle_complete = np.zeros(len(pot_list)+2)
 pot_count = 0
@@ -44,6 +46,7 @@ def log_excel(data):
 initialize_csv()
 log_excel(f"Log file initialized: {userfilename}")
 log_excel(["TEST PROFILE", f"Pot increments: {len(pot_list)}", f"Timer: {timer} min"])
+log_excel(pot_list)
 log_excel("--------------------------------------------------")
 
 
@@ -62,7 +65,7 @@ def open_ckt():
     log_excel("open ckt potentiometer\n")
     send_command("pot off")
     send_command("pot off") #redudant call but need troubleshooting
-    time.sleep(2*60)
+    time.sleep(60)
 
 #open ckt pot 
 open_ckt()
@@ -71,17 +74,20 @@ open_ckt()
 def start_timer_pot(pot):
     global timer_started, timer, pot_cycle_complete, pot_count, voltage, current
     log_excel("Voltage threshold reached. Starting timer.")
+    send_command("pot 1")
+    time.sleep(2)
     send_command(f"pot {pot}")
     time.sleep(timer * 60)
     log_excel("Timer ended. Turning off potentiometer. Saving Potentiometer Cycle Voltage and Current Values")
     v_pot_cycle_complete[pot_count] = voltage
     i_pot_cycle_complete[pot_count] = current
-    log_excel(v_pot_cycle_complete)
-    log_excel(i_pot_cycle_complete)
+    #log_excel(v_pot_cycle_complete)
+    #log_excel(i_pot_cycle_complete)
+
     
     send_command("pot off")
     send_command("pot off") #redudant call but need troubleshooting
-    time.sleep(2*60)
+    time.sleep(60)
     timer_started = False
 
 # Prometheus Metrics
@@ -124,7 +130,8 @@ def receive_data():
                     pot_count = 0
                     print(v_pot_cycle_complete)
                     print(i_pot_cycle_complete)
-                    pot_cycle_complete = np.zeros(len(pot_list))
+                    v_pot_cycle_complete = np.zeros(len(pot_list))
+                    i_pot_cycle_complete = np.zeros(len(pot_list))
                 timer_started = True
                 threading.Thread(
                     target=start_timer_pot, args=(pot_list[pot_count],), daemon=True
