@@ -1,0 +1,8 @@
+Timestamp,Voltage (V),Current (A)
+[17:35:38] Log file initialized: test
+[17:35:38] ['TEST PROFILE', 'Pot increments: 4', 'Timer: 0.5 min']
+[17:35:38] [1, 0, 1, 0]
+[17:35:38] --------------------------------------------------
+[17:35:38] open ckt potentiometer
+
+[17:35:56] Failed to send command: pot off | Error: [Errno 111] Connection refused

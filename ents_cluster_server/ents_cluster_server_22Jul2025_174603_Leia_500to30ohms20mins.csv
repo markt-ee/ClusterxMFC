@@ -1,0 +1,8 @@
+Timestamp,Voltage (V),Current (A)
+[17:46:03] Log file initialized: Leia_500to30ohms20mins
+[17:46:03] ['TEST PROFILE', 'Pot increments: 6', 'Timer: 20 min']
+[17:46:03] [5, 4, 3, 2, 1, 0]
+[17:46:03] --------------------------------------------------
+[17:46:03] open ckt potentiometer
+
+[17:46:03] Sent to ESP32: pot off
