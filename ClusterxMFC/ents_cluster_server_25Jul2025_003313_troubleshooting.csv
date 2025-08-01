@@ -1,0 +1,5 @@
+Timestamp,Voltage (V),Current (A)
+[00:33:13] Log file initialized: troubleshooting
+[00:33:13] ['TEST PROFILE', 'Pot increments: 10', 'Timer: 20 min']
+[00:33:13] --------------------------------------------------
+[00:33:13] Flask server starting on port 5000...

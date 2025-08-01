@@ -1,0 +1,3 @@
+Timestamp,Voltage (V),Current (A)
+Log file initialized for run test4_07122025.txt
+['TEST PROFILE_____________________\n pot increments: ', 0, '\ntimer:', 20, '\n']

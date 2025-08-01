@@ -1,0 +1,30 @@
+Timestamp,Voltage (V),Current (A)
+[00:59:34] Log file initialized: troubleshooting
+[00:59:34] ['TEST PROFILE', 'Pot increments: 4', 'Timer: 15 min']
+[00:59:34] [5, 4, 3, 2]
+[00:59:34] --------------------------------------------------
+[00:59:34] Flask server starting on port 5000...
+[00:59:41] Received data: {'cellId': 13, 'loggerId': 13, 'ts': 364, 'type': 'bme280', 'data': {'pressure': 10139.4, 'temperature': 26.66, 'humidity': 44.746}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[00:59:41] Temperature: 26.66 C | Humidity: 44.75 %
+[00:59:43] Received data: {'cellId': 13, 'loggerId': 13, 'ts': 1695, 'type': 'power', 'data': {'voltage': 0.72967098515, 'current': 6.6063326505015e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[00:59:43] Exception occurred while decoding: log_excel() takes 1 positional argument but 2 were given
+[00:59:58] Received data: {'cellId': 13, 'loggerId': 13, 'ts': 1695, 'type': 'bme280', 'data': {'pressure': 10140.1, 'temperature': 27.33, 'humidity': 42.497}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[00:59:58] Temperature: 27.33 C | Humidity: 42.50 %
+[00:59:59] Received data: {'cellId': 13, 'loggerId': 13, 'ts': 1712, 'type': 'power', 'data': {'voltage': 0.72960956015, 'current': 6.6580224524865e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[00:59:59] Exception occurred while decoding: log_excel() takes 1 positional argument but 2 were given
+[01:00:14] Received data: {'cellId': 13, 'loggerId': 13, 'ts': 1712, 'type': 'bme280', 'data': {'pressure': 10139.8, 'temperature': 27.28, 'humidity': 42.625}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[01:00:14] Temperature: 27.28 C | Humidity: 42.62 %
+[01:00:16] Received data: {'cellId': 13, 'loggerId': 13, 'ts': 1728, 'type': 'power', 'data': {'voltage': 0.7295670351499999, 'current': 6.5496639917276e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[01:00:16] Exception occurred while decoding: log_excel() takes 1 positional argument but 2 were given
+[01:00:31] Received data: {'cellId': 13, 'loggerId': 13, 'ts': 1728, 'type': 'bme280', 'data': {'pressure': 10139.8, 'temperature': 27.25, 'humidity': 42.598}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[01:00:31] Temperature: 27.25 C | Humidity: 42.60 %
+[01:00:32] Received data: {'cellId': 13, 'loggerId': 13, 'ts': 1745, 'type': 'power', 'data': {'voltage': 0.7295611289, 'current': 6.6835346375122e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[01:00:32] Exception occurred while decoding: log_excel() takes 1 positional argument but 2 were given
+[01:00:48] Received data: {'cellId': 13, 'loggerId': 13, 'ts': 1745, 'type': 'bme280', 'data': {'pressure': 10139.8, 'temperature': 27.24, 'humidity': 42.669}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[01:00:48] Temperature: 27.24 C | Humidity: 42.67 %
+[01:00:49] Received data: {'cellId': 13, 'loggerId': 13, 'ts': 1762, 'type': 'power', 'data': {'voltage': 0.72951899765, 'current': 6.6453911284612e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[01:00:49] Exception occurred while decoding: log_excel() takes 1 positional argument but 2 were given
+[01:01:04] Received data: {'cellId': 13, 'loggerId': 13, 'ts': 1762, 'type': 'bme280', 'data': {'pressure': 10139.5, 'temperature': 27.22, 'humidity': 42.667}, 'data_type': {'pressure': <class 'float'>, 'temperature': <class 'float'>, 'humidity': <class 'float'>}}
+[01:01:04] Temperature: 27.22 C | Humidity: 42.67 %
+[01:01:05] Received data: {'cellId': 13, 'loggerId': 13, 'ts': 1778, 'type': 'power', 'data': {'voltage': 0.72947804765, 'current': 6.6897730618897e-05}, 'data_type': {'voltage': <class 'float'>, 'current': <class 'float'>}}
+[01:01:05] Exception occurred while decoding: log_excel() takes 1 positional argument but 2 were given

@@ -1,0 +1,27 @@
+Timestamp,Voltage (V),Current (A)
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
+cellId,loggerId,ts,type,data,data_type
