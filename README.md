@@ -5,7 +5,9 @@ Latest Schematic (In Progress)
 
 # 🚀 Cluster x Soil Microbial Fuel Cells
 _monitoring maximum power point output of soil mfcs using ENTs board and retired mobile phones._
-https://github.com/jlab-sensing/ENTS-node-firmware
+ents: https://github.com/jlab-sensing/ENTS-node-firmware
+cluster: https://github.com/ramirtharajah/retired-smartphones
+
 
 
 ![Project Banner](https://via.placeholder.com/1000x300?text=Project+Banner+Image)
