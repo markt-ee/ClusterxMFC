@@ -3,8 +3,10 @@ Latest Schematic (In Progress)
 <img width="1511" height="648" alt="image" src="https://github.com/user-attachments/assets/8b241e8c-2337-44ac-a9c3-ac8c2e37b11a" />
 
 
-# 🚀 Project Title
-_A short description of what your project does and why it’s useful._
+# 🚀 Cluster x Soil Microbial Fuel Cells
+_monitoring maximum power point output of soil mfcs using ENTs board and retired mobile phones._
+https://github.com/jlab-sensing/ENTS-node-firmware
+
 
 ![Project Banner](https://via.placeholder.com/1000x300?text=Project+Banner+Image)
 
