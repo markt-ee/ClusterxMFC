@@ -1,0 +1,6 @@
+# Secrets - real credentials never get committed
+secrets.h
+esp32_digipot/secrets.h
+esp32_digipot/esp8266_digipot_V1/secrets.h
+ents_cell_config/*.json
+!ents_cell_config/*.example.json
