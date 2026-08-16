@@ -17,8 +17,8 @@
     "Calibration V Offset": -0.0009211,
     "Calibration I Slope": -1.18827131e-10,
     "Calibration I Offset": 4.27060715e-05,
-    "WiFi SSID": "MyCafe2.4",
-    "WiFi Password": "passwordapa",
+    "YOUR_WIFI_SSID": "MyCafe2.4",
+    "YOUR_WIFI_PASSWORD": "passwordapa",
     "API Endpoint URL": "http://192.168.2.5:5000/data",
     "API Port": 80
 }

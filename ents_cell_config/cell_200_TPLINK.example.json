@@ -17,8 +17,8 @@
     "Calibration V Offset": -0.0009211,
     "Calibration I Slope": -1.18827131e-10,
     "Calibration I Offset": 4.27060715e-05,
-    "WiFi SSID": "TP-Link_8FE0",
-    "WiFi Password": "TimmysDisciples",
+    "YOUR_WIFI_SSID": "TP-Link_8FE0",
+    "YOUR_WIFI_PASSWORD": "TimmysDisciples",
     "API Endpoint URL": "http://192.168.0.219:5000/data",
     "API Port": 80
 }

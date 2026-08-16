@@ -15,9 +15,7 @@ code is cleaner, serial and wifi merged to one function
 
 // const char* ssid = "MyCafe2.4";
 // const char* password = "passwordapa";
-
-const char* ssid = "TP-Link_8FE0";
-const char* password = "TimmysDisciples";
+#include "secrets.h"
 
 WiFiServer server(1234);
 
